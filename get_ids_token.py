@@ -84,5 +84,5 @@ def get_token(username, password, redir_uri):  # 返回带有ticket的链接
 
 
 if __name__ == '__main__':
-    print(get_token('', '',
+    print(get_token('2021413123', 'Jzoi266300',
                     "http://ids.qfnu.edu.cn/authserver/login?service=http%3A%2F%2Fzhjw.qfnu.edu.cn%2Fsso.jsp"))
